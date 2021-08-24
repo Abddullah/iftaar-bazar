@@ -1,0 +1,106 @@
+.AdminUserDiv{
+    width: 100%;
+}
+
+.Users{
+    margin-top: 70px;
+    font-size: 33px;
+    padding-left: 15px;
+    width: 90%;
+    color: rgb(95, 95, 95);
+    border-bottom: 2px solid rgb(175, 174, 174);
+}
+
+.Search-Field{
+    display: block;
+    margin: 10px;
+    text-align: center
+}
+
+.Search-Field > input{
+    width: 400px;
+    height: 40px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 3px;
+    border: 2px solid #9ea7da;
+}
+
+.Sellers{
+    margin-top: 10px !important;
+    width: 90% !important;
+}
+
+.Pagination{
+    display: block;
+    flex-basis: 100%;
+}
+
+@media screen and (max-width: 630px) {
+    .Sellers{
+        display: block !important;
+        width: 600px
+    }
+    .Search-Field > input{
+        width: 300px;
+        height: 38px;
+    }
+}
+
+
+table{
+    width: 95%;
+    margin: 10px auto;
+    background-color: white;
+}
+
+.THead th{
+    margin: 8px auto ;
+    border-bottom: 2px solid #BCC3C0;
+    border-radius: 10px;
+}
+
+table tr{
+    width: 100%;
+}
+
+table th{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    border-radius: 8px
+}
+
+table td{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(112, 112, 112);
+    border-bottom: 1px solid #BCC3C0;
+}
+
+.Date{
+    width: 15%;
+    padding: 5px 8px;
+}
+.Name{
+    width: 20%;
+    padding: 5px 8px;
+}
+.Name > img {
+    height: 80px;
+}
+.OrderID{
+    width: 15%;
+}
+.Number{
+    width: 25%;
+    padding: 5px 8px;
+}
+.UserRole{
+    width: 15%;
+    padding: 5px 8px;
+}
+.Btn{
+    width: 15%;
+    padding: 5px 8px;
+}

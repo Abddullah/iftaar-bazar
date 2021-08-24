@@ -1,0 +1,163 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.products{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+}
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    width: 90%;
+    margin: 20px auto;
+}
+.product_card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 43%;
+    min-width: 210px;
+    /* width: 60%; */
+    max-width: 299px;
+    /* border: 1px solid #f27b01; */
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 10px 1px #c1b9b1b0;
+}
+.product_card>div{
+    padding: 5px;
+}
+.delete_product{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    cursor: pointer;
+    background-color: #B71C1C;
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px 1px #B71C1C;
+    padding: 10px !important;
+    color: whitesmoke
+}
+.product_card:hover .delete_product{
+    display: flex;
+    text-align: center;
+}
+.delete_product:hover {
+    opacity: 1;
+}
+.product_card:hover{
+    /* transform: scale(1.01);
+    transition: 1s; */
+}
+.product_card>div:first-child{
+    margin: 0 auto;
+    position: relative;
+}
+.BlockDiv{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.BlockDiv > svg {
+    font-size: 28px !important;
+    color: red
+}
+.product_card div:first-child>img{
+    /* width: 35%; */
+    /* border: 1px solid black; */
+    /* width: 200px; */
+    width: 100%;
+    height: 100%;
+    min-height: 220px;
+    max-height: 220px;
+}
+.product-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+.product-details div:first-child{
+    align-self: flex-start;
+    padding: 5px;
+    flex-basis: 100%;
+    color: #f27b01;
+    text-align: center;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    margin: 5px;
+}
+.product-details div:nth-child(2){
+    flex-basis: 100%;
+    text-align: center;
+    font-weight: bold;
+    /* color: #f27b01; */
+    /* border: 1px solid black; */
+    font-size: 20px;
+    margin: 5px;
+}
+.product-details div:nth-child(3){
+    align-self: flex-end;
+    flex-basis: 100%;
+    text-align: right;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    margin-right: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #00669a;
+}
+.product-details div:nth-child(4){
+    align-self: flex-end;
+    flex-basis: 100%;
+    text-align: right;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    margin-right: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #00669a;
+}
+hr{
+
+}
+.product_card div:nth-child(4)>span{
+    /* border: 1px solid black; */
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.product_card div:nth-child(4)>span:hover{
+    /* text-decoration: underline; */
+    cursor: pointer;
+    background-color: lightgrey;
+}
+@media(max-width: 700px) {
+    .product_card{
+        flex-wrap: wrap;
+        width: 43%;
+    }
+    .product_card div:first-child>img{
+        width: 100%;
+    }
+    .product-details div:first-child{
+        margin: 5px;
+    }
+    .product-details div:nth-child(2){
+        margin: 5px;
+    }
+    .product-details div:nth-child(4){
+        margin: 5px;
+        text-align: center;
+    }
+}

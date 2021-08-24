@@ -1,0 +1,283 @@
+body{
+    margin: 0px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .Navbar{
+    display: flex;
+    text-align: center;
+    background-color: orange;
+    height: 70px;
+    align-content: center
+  }
+  
+  .NavDiv{
+    width: 25%
+  }
+  
+  .Heading{
+    width: 50%;
+    text-align: center;
+    color: white
+  }
+.privacy-policy{
+    color: #014c8c;
+    cursor: pointer; 
+}
+.privacy-policy:hover {
+    text-decoration: underline;
+}
+.dialog-cont{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 500px; */
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.dialog-Title{
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    align-self: center;
+    font-weight: bold
+}
+.dialog-heading{
+    color: black;
+    font-size: 17px;
+    padding-left: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.privacy-data{
+    align-self: flex-start;
+}
+.privacy-data>ul{
+    list-style-type: square
+}
+.privacy-data>ul>li {
+    margin: 6px
+}
+
+  @media screen and (min-width: 1024px) {
+    .Form{
+        width: 500px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Form{
+        width: 500px;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .Form{
+        width: 400px;
+        transition: 1s;
+
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .Form{
+        width: 380px;
+        transition: 1s;
+
+    }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 360px) {
+    .Form{
+        width: 320px;
+        transition: 1s;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Form{
+        width: 300px;
+        transition: 1s;
+
+    }
+}
+
+
+.Form{
+  border: 2px solid gold;
+}
+
+
+
+.Form{
+  /* font-family: 'Courier New', Courier, monospace;    */
+  text-align: center;
+  border: 1px solid #3f984f;
+  /* border-radius: 8px; */
+  margin: 10px auto;
+  padding: 15px 25px;
+
+}
+
+.Form label{
+    width: 100%;
+    font-family: initial;   
+    font-size: 22px;
+    font-weight: bold;
+    /* margin: 5px auto */
+}
+
+.Form input{
+    width: 90%;
+    height: 35px;
+    font-size: 18px;
+    margin: 0px auto 10px auto;
+    /* border: 2px solid rgb(141, 202, 223); */
+    border-bottom: 2px solid #fab26a;
+
+    /* border-radius: 3px; */
+    padding-left: 8px
+}
+
+.Form button{
+    margin: 8px;
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #f27b01;
+    /* border-radius: 5px; */
+}
+
+.Form button:hover {
+    background-color: #f27b01;
+    color: white;
+}
+
+
+.ChangeForm{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.ChangeForm div{
+    width: 50%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 24px;
+    float: left;
+    cursor: pointer;
+}
+
+.ChangeForm div:first-child{
+    width: 45%;
+    text-align: end;
+    padding-right: 15px;
+}
+.ChangeForm div:first-child b{
+    padding: 15px
+}
+
+.ChangeForm div:first-child b:hover{
+    background-color: #f27b01;
+    color: white;
+
+}
+
+.ChangeForm div:nth-child(2){
+    width: 10%;
+    text-align: center;
+}
+.ChangeForm div:last-child{
+    width: 45%;
+    text-align: start;
+    padding-left: 15px;
+}
+
+.ChangeForm div:last-child b{
+    padding: 15px
+}
+
+.ChangeForm div:last-child b:hover{
+    background-color: #f27b01;
+    color: white;
+}
+
+.Heads b{
+    background-color: #f27b01;
+    color: white;
+}
+.MuiRadio-colorSecondary-169.MuiRadio-checked-166 {
+    color: #f27b01 !important
+}
+.MuiIconButton-label-49 {
+    color: #f27b01 !important
+}
+.MuiTouchRipple-root-62{
+    color: #f27b01 !important
+}
+
+.InputFields > .Mobile_Code{
+    width: 85% !important;
+    /* height: 35px; */
+    /* font-size: 18px; */
+    /* margin: 0px auto 10px auto; */
+    /* border: 2px solid rgb(141, 202, 223); */
+    /* border-bottom: 2px solid #fab26a; */
+
+    /* border-radius: 3px; */
+    /* padding-left: 8px */
+
+}
+.Mobile_Code{
+    margin-top: 0px !important
+}
+.Mobile_Code > .Country_Code{
+    width: 30% !important;    
+}
+.Mobile_Code > input{
+    width: 70% !important;
+}
+.Mobile_Code > .Country_Code_Field{
+    width: 50% !important;
+    height: 48px;
+}
+.Country_Code_Select{
+    width: 50% !important;
+    border-left: 1px solid #f27b01 !important;
+    height: 49px !important;
+    border: none;
+    border-bottom: 1px solid #f27b01 !important;
+}
+
+.Tel_Code{
+    margin-top: 0px !important;
+    width: 85% !important;
+    height: 48px;
+}
+.Tel_Code > input {
+    width: 50% !important
+}
+
+.MuiRadio-colorSecondary-34.MuiRadio-checked-31 {
+    color: orange !important
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

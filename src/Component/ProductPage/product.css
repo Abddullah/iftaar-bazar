@@ -1,0 +1,37 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+.vendor-products{
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    /* padding: 5px; */
+    /* border: 1px solid black; */
+    padding: 1em;
+    margin: 1em auto;
+}
+
+.vendor-products>div:first-child{
+    font-size: x-large;
+}
+.empty_product{
+    font-size: 15px;
+    padding: 40px;
+}
+.empty_product>div:first-child{
+    margin: 10px;
+    font-size: 20px;
+}
+.empty_product>div:nth-child(2){
+    text-align: center;
+    padding: 5px;
+    background-color: #f27b01;
+    color: whitesmoke;
+    border: 1px solid #f27b01;
+    cursor: pointer;
+}
+@media(max-width: 300px){
+    .empty_product>div:first-child{
+        font-size: 16px;
+    }
+}

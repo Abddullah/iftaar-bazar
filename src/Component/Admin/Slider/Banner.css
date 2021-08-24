@@ -1,0 +1,87 @@
+.carousel.carousel-slider .control-arrow:hover {
+    margin-left: 0px !important;
+}
+.carousel.carousel-slider .control-arrow {
+    margin-left: 0px !important;
+}
+.Banners{
+    margin: 45px auto 20px auto;
+}
+
+.EditBanner{
+    /* margin: 15px; */
+    text-align: center;
+    margin-bottom: 30px;
+}
+.carousel .thumbs-wrapper {
+    margin: 0px 20px 0px 20px !important;
+}
+
+/* .Carousel_Banner{
+    margin: 0px 20px 0px 20px
+} */
+
+.Banner_Images{
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Banner_Images > div{
+    width: 350px;
+    margin: 5px;
+    position: relative;
+}
+.Banner_Images > div > div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(85, 84, 84);
+    text-align: center;
+    cursor: pointer;
+} 
+.Banner_Images > div > div:hover{
+    background-color: rgb(44, 44, 44)
+}
+
+.Banner_Images > div > img{
+    width: 350px;
+    height: 200px;
+}
+.File_Upload{
+    width: 100% !important;
+    text-align: center
+}
+
+.Banner_Btns{
+    margin: 10px;
+    text-align: center
+}
+.filePond{
+    width: 70%;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.Carousel_Banner{
+    min-width: 800px;
+}
+
+.Carousel_Banner_Image{
+    /* width: 95%; */
+    height: 600px;
+    text-align: center;
+    margin: 0px auto
+}
+.Carousel_Banner_Image img{
+    height: 100%;
+    width: 100%
+}

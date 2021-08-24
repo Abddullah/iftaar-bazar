@@ -1,0 +1,168 @@
+.order_card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 43%;
+    min-width: 287px;
+    /* width: 60%; */
+    max-width: 299px;
+    /* border: 1px solid #f27b01; */
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0px 0px 10px 1px #c1b9b1b0;
+}
+.order_card:hover{
+    /* transform: scale(1.01); */
+    transition: 1s;
+}
+.order_card>div:nth-child(2){
+    flex-basis: 100%;
+}
+.order-card-row-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    padding: 3px;
+    align-items: center;
+}
+.order-card-row-1>div{
+    flex-grow: 1;
+    font-size: 16px !important; 
+}
+.order-card-row-1>div:nth-child(2){
+    text-align: right;
+    color: #f27b01;
+    font-weight: bold;
+    font-size: medium;
+}
+.order_card>div:nth-child(2){
+    margin: 0 auto;
+}
+.order_card>div:nth-child(3)>img{
+    /* width: 35%; */
+    /* border: 1px solid black; */
+    /* width: 200px; */
+    width: 100%;
+    height: 100%;
+    min-height: 220px;
+    max-height: 220px;
+}
+.order_card>div:nth-child(3){
+
+}
+.order-link{
+    color: #039be5;
+}
+.ordered-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+.ordered-details>div:first-child{
+    align-self: flex-start;
+    padding: 5px;
+    flex-basis: 100%;
+    color: #f27b01;
+    text-align: center;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    font-size: 20px;
+    margin: 5px;
+}
+.ordered-details>div:nth-child(2){
+    flex-basis: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px;
+    color: black;
+}
+.ordered-details>div:nth-child(3){
+    flex-basis: 100%;
+}
+.ordered-details>div:nth-child(4){
+    align-self: flex-end;
+    flex-basis: 100%;
+    text-align: right;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    margin-right: 5px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #00669a;
+}
+.order_card div:nth-child(4)>span{
+    /* border: 1px solid black; */
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.order_card div:nth-child(4)>span:hover{
+    /* text-decoration: underline; */
+    cursor: pointer;
+    background-color: lightgrey;
+}
+@media(max-width: 700px) {
+    .order_card{
+        flex-wrap: wrap;
+        width: 43%;
+    }
+    .order_card>div:nth-child(3)>img{
+        width: 100%;
+    }
+    .ordered-details>div:first-child{
+        margin: 5px;
+    }
+    .ordered-details>div:nth-child(2){
+        margin: 5px;
+    }
+    .ordered-details>div:nth-child(4){
+        margin: 5px;
+        text-align: center;
+    }
+}
+
+
+
+.order-link{
+    font-size: 17px !important;
+}
+.order-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.select-options{
+    padding: 5px;
+}
+.centerAlign{
+    text-align: center;
+}
+
+
+.pagination li {
+    border: 1px solid rgb(168, 168, 168);
+    color: cadetblue;
+    background-color: white;
+    padding: 4px;
+}
+a:not([href]):not([tabindex]) {
+    padding: 7px 9px !important;
+}
+
+hr{
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
+.order-card-row-1{
+    padding: 7px;
+    cursor: pointer;
+}
+.cancel-Order{
+    background-color: #c3afab5c;
+}
+.cancelled{
+    color: red !important;
+}

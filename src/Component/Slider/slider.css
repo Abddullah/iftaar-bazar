@@ -1,0 +1,27 @@
+.slider{
+    width: 100%;
+    background-color: #f27b01;
+    /* height: 300px; */
+}
+.image-gallery-bullets .image-gallery-bullet {
+    margin: 0px 5px !important
+}
+
+/* .image-gallery-right-nav {
+    margin-right: 0px !important
+} */
+button, html [type=button] {
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+}
+
+.image-gallery-bullet.active{
+    background-color: white !important;
+}
+
+.image-gallery-right-nav{
+    outline: none !important
+}
+.image-gallery-left-nav{
+    outline: none !important
+}

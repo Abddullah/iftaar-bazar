@@ -1,0 +1,39 @@
+.pagination {
+    display: flex;
+    justify-content: center
+}
+
+.pagination li{
+    width: 35px !important;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(168, 168, 168);
+    color: #1f84dd;
+    background-color: white
+
+}
+
+.pagination li:hover{
+    background-color: #1f84dd;
+    color: white
+}
+
+
+.pagination .btn-first-page {
+    width: 55px !important;
+    border-radius: 3px 0px 0px 3px
+}
+
+.pagination .btn-last-page{
+    width: 55px !important;
+    border-radius: 0px 3px 3px 0px
+}
+
+a:not([href]):not([tabindex]) {
+    padding: 4px 12px !important;
+}
+
+.active{
+    background-color: #1f84dd !important;
+    color: white !important
+}

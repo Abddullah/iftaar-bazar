@@ -1,0 +1,207 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2.background {
+    position: relative;
+    z-index: 1;
+}
+.product { 
+    border-radius: 10px; 
+    background: #00669a;
+    color: white;
+    word-spacing: -10px;
+    padding: 7px 15px; 
+    word-spacing: 5px;
+}
+h2.background:before {
+    border-top: 4px solid #00669a;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+@media (max-width: 700px){
+    h2.background:before {
+        border-top: none;
+    }
+    .product{
+        font-size: 6vw;
+    }
+}
+@media (max-width: 400px){
+    .product{
+        width: 200px;
+        font-size: 24px;
+    }
+}
+.featured{
+    width: 90%;
+    margin: 0 auto;
+}
+.feature-products div:first-child{
+    text-align: center;
+    width: 250px;
+    word-spacing: -10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #00669a;
+    background-color: #00669a;
+    color: white;
+    /* left: 40%; */
+    right: 40%;
+    /* position: absolute; */
+    font-size: 26px;
+    /* font-weight: bold; */
+    padding: 10px 15px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.product-image{
+    position: relative;
+    cursor: pointer;
+}
+.product-image img{
+    width: 230px;
+    height: 250px;
+}
+
+.back .product-Overlay{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* opacity: 0; */
+    /* height: 100%; */
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.back,
+.product-Overlay {
+  text-align: center;
+}
+
+img,
+.product-Overlay {
+  transition: 0.3s all;
+  border-radius: 3px;
+}
+.product-Overlay>span{
+    display: flex;
+    justify-content: space-evenly;
+}
+.back {
+  float: left;
+}
+.back .product-Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  color: black;
+  opacity: 0;
+  z-index: 2;
+}
+.back .product-Overlay>span {
+  color: white;
+  padding-top: 20%;
+  font-family: "Droid Serif", serif;
+}
+.back .product-Overlay p {
+  font-family: "Julius Sans One", sans-serif;
+}
+.back:hover .product-Overlay {
+  opacity: 1;
+}
+.back:hover img {
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+
+@media screen and (max-width: 1148px) {
+  .back {
+    max-width: 48%;
+    margin: 1%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .back {
+    float: none;
+    max-width: 80%;
+    margin: 1% auto;
+  }
+}
+
+
+.products>div{
+    margin: 3px;
+    border: 5px solid white;
+}
+.title{
+    text-align: center;
+    width: 230px;
+    background-color: orangered;
+    position: absolute;
+    bottom: 0;
+    padding: 4px;
+    font-weight: bold;
+    color: white;
+}
+.product div>img{
+    width: 100%;
+}
+.products>div:hover{
+    border: 5px solid #ff6600;
+}
+.product-image:hover .title{
+    display: none;
+}
+.product-Overlay div{
+    color: white;
+    margin-top: 2px;
+}
+.view-details{
+    /* margin-top: 93px !important; */
+    color: antiquewhite !important;
+    background-color: #f17b01 !important;
+    border: 1px solid #f17b01 !important;
+    font-size: 13px !important;
+}
+.view-details:hover{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    border: 1px solid #f17b01 !important;
+}
+.brand-overlay{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.brand-overlay>div{
+    /* border: 1px solid black; */
+    flex-basis: 100%;
+    padding: 5px;
+}
+.brand-overlay>div:last-child{
+    align-self: flex-end;
+}
+
+.MuiButton-root-139 {
+    z-index: 2 !important;
+}

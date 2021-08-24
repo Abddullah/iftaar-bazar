@@ -1,0 +1,44 @@
+/* .MuiAppBar-colorPrimary-18 {
+    background-color: #f17b01 !important
+}
+.MuiAppBar-colorPrimary-197 {
+    background-color: #f17b01 !important    
+}
+.MuiAppBar-colorPrimary-23 {
+    background-color: #f17b01 !important    
+}
+.MuiTypography-noWrap-272 {
+    overflow: visible !important;
+    flex-grow: 1 !important;
+}
+.MuiTypography-noWrap-98 {
+    overflow: visible !important;
+    flex-grow: 1 !important;
+} */
+.AdminDashboardCss > header > div{
+    background-color: #3f984f !important    
+}
+.AdminDashboardCss > header > div > span{
+    overflow: visible !important;
+    flex-grow: 1 !important;
+}
+
+.LogoutBtn {
+    background-color: white;
+    color: #3f984f;
+    border: 1px solid #3f984f;
+    border-radius: 5px;
+    padding: 2px 8px;
+    float: right;
+    margin-right: 15px !important;
+}
+.LogoutBtn:hover {
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+.LogoutBtn > :first-child > span > svg {
+    margin-right: 0px !important;
+    width: 35px !important;
+
+}

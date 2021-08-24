@@ -1,0 +1,111 @@
+.Profile{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 1em;
+    margin: 1em auto 0px auto;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(153, 152, 152)
+}
+.Profile div:first-child{
+    font-size: x-large;
+    width: 60%
+}
+.Profile div:nth-child(2){
+    width: 40%;
+}
+.Profile div:nth-child(2) Button{
+    float: right
+}
+.FontAws{
+    margin-right: 5px !important
+}
+.ProfileBuyerData{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 1em;
+    margin: 0px auto;
+    flex-wrap: wrap;
+}
+.ProfileBuyerData > span > div{
+   width: 100%;
+   margin-top: 10px
+}
+.ProfileBuyerData span div{
+    float: left;
+}
+.formLabBuyer{
+    width: 180px;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: bold
+}
+.ProfileData{
+    display: flex;
+    width: 90%;
+    margin: 40px auto !important;
+    justify-content: center;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+.changePassword {
+    display: flex;
+    width: 90%;
+    margin: 15px auto !important;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left:  25px
+}
+.changePassword div{
+    float: left;
+    flex-basis: 100%;
+}
+.changePassword>div>div:first-child{ 
+    margin: 2em 0em 0em 0em
+}
+@media screen and (min-width: 950px) {
+    .ProfileData div{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 950px) {
+    .ProfileData > span > div{
+        width: 100%;
+        margin-top: 10px
+     }
+}
+.ProfileData div{
+    float: left;
+}
+
+.formLab{
+    width: 170px !important;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: start;
+    padding: 13px 12px;
+}
+.ProfileData{
+    padding-left:  25px
+}
+.formText{
+    font-size: 15px;
+    padding-top: 13px !important;
+    color: rgb(117, 117, 117)
+}
+@media screen and (min-width: 900px) {
+    .formText{
+        height: 100%;
+        padding-left:  25px;
+        padding-top: 13px;
+    }
+}
+@media screen and (max-width: 899px) {
+    .formText{
+        height: 100%;        
+        padding-left: 0px;
+        padding-top: 3px;
+
+    }
+}

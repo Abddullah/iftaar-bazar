@@ -1,0 +1,63 @@
+
+.Orders{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto 20px auto;
+    /* font-size: 33px;
+    padding-left: 15px; */
+    width: 90%;
+    color: rgb(95, 95, 95);
+    border-bottom: 2px solid rgb(175, 174, 174);
+}
+.Orders :first-child{
+    font-size: 33px;
+    padding-left: 15px;
+    width: 60%;
+}
+
+.Orders :last-child{
+    font-size: 20px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 15px;
+    width: 40%;
+}
+
+.MuiTableCell-head-149 {
+    font-size: 16px !important
+}
+
+.Product-Details{
+    width: 90%;
+    margin: 0px auto
+}
+
+.MuiExpansionPanelDetails-root-175 > div {
+    width: 100%
+}
+
+.Order_Product_Detail{
+    display: flex;
+    flex-wrap: wrap
+}
+.Order_Product_Detail > div {
+    flex-basis: 100%;
+}
+.Images {
+    text-align: center;
+}
+
+
+.Table-Seller-Heading{
+    font-size: 22px;
+    color: black;
+    font-family: sans-serif !important;
+    font-weight: 600;
+    margin: 10px;
+    text-align: center;
+}
+
+.Transaction-Details{
+    margin-top: 15px;
+    text-align: center
+}

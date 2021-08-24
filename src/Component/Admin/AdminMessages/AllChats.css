@@ -1,0 +1,154 @@
+.ChatDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    color: white;
+    text-align: center;
+    /* background-color: #f17b01; */
+    bottom: 0;
+    position: fixed;
+    right: 10px;
+    z-index: 100;
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 
+                0px 4px 5px 0px rgba(0, 0, 0, 0.14), 
+                0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+.ChatHeadDiv{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f17b01;
+    color: white;
+    cursor: pointer;
+}
+
+.blankDiv{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+
+.ChatMessagesDiv{
+    width: 100%;
+    height: 360px;
+    background-color: white;
+    overflow: auto;
+}
+
+.ChatMessagesDiv > ul {
+    margin: 0px 10px;
+}
+.ChatMessagesDiv > ul > li {
+    width: 100%;
+}
+
+.SenderList{
+    text-align: -webkit-left;
+}
+
+.RecieverList{
+    text-align: -webkit-right;
+}
+
+.ChatMessagesDiv > ul > .SenderList > div {
+    color: white;
+    background-color: #90a1d6;
+    
+}
+
+.ChatMessagesDiv > ul > .RecieverList > div {
+    color: white;
+    background-color: #f37f05;
+
+}
+
+/* Warning Works */
+
+.WarningSenderMgs{
+    text-align: -webkit-left;
+}
+.WarningRecieverMsgs{
+    text-align: -webkit-right;
+}
+
+@-webkit-keyframes argh-my-eyes {
+    0%   { background-color: red; }
+    49% { background-color: rgb(172, 3, 3); }
+    50% { background-color: rgb(172, 3, 3); }
+    99% { background-color: rgb(172, 3, 3); }
+    100% { background-color: red; }
+}
+@-moz-keyframes argh-my-eyes {
+   0%   { background-color: red; }
+   49% { background-color: red; }
+   50% { background-color: rgb(172, 3, 3); }
+   99% { background-color: rgb(172, 3, 3); }
+   100% { background-color: red; }
+}
+@keyframes argh-my-eyes {
+   0%   { background-color: red; }
+   49% { background-color: red; }
+   50% { background-color: rgb(172, 3, 3); }
+   99% { background-color: rgb(172, 3, 3); }
+   100% { background-color: red; }
+}
+
+.ChatMessagesDiv > ul > .WarningSenderMgs > div {
+    color: white;
+    -webkit-animation: argh-my-eyes 1s infinite;
+    -moz-animation:    argh-my-eyes 1s infinite;
+    animation:         argh-my-eyes 1s infinite;
+}
+
+.ChatMessagesDiv > ul > .WarningRecieverMsgs > div {
+    color: white;
+    -webkit-animation: argh-my-eyes 1s infinite;
+    -moz-animation:    argh-my-eyes 1s infinite;
+    animation:         argh-my-eyes 1s infinite;
+}
+
+/* Warning Works */
+
+.ChatMessagesDiv > ul > li > div {
+    max-width: 200px;
+    margin: 10px 0px;
+    border-radius: 7px;
+    padding: 5px;
+    padding-left: 8px;
+    text-align: start
+}
+
+.SendingDivo{
+    width: 100%;
+    height: 38px;
+    padding: 5px;
+    background-color: #dd9140;
+
+}
+.SendingDivo :first-child{
+    width: 265px;
+    float: left;
+
+}
+.SendingDivo :first-child > input{
+    width: 100%;
+    padding-left: 8px;
+    border: #e9bf92;
+    border-radius: 4px;
+    color: #09442c;
+    outline: none
+}
+
+.SendingDivo :last-child{
+    width: 40px;
+    float: left;
+    cursor: pointer;
+}
+
+
+.SendingDivo :last-child > svg{
+    width: 40px !important;
+}
+

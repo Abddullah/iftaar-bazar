@@ -1,0 +1,33 @@
+.Admin_Product_Details{
+    width: 90%;
+    min-width: 400px;
+    margin: auto
+}
+.Product_Info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Product_Info > div{
+    width: 50%;
+}
+._head{
+    font-size: 20px;
+    margin-top: 10px
+}
+.PDF_File  img{
+    width: 40px;
+}
+.Slider_Image{
+    height: 500px;
+}
+.Slider_Image > img{
+    height: 500px;
+}
+._Carousel{
+    margin: 0px 30px
+}
+.block_btn{
+    text-align: center;
+    margin: 10px
+}
